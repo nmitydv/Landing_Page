@@ -1,0 +1,60 @@
+p{
+    color: white;
+}
+#title{
+    font-size: large;
+   font-family: cursive;
+}
+body{
+    margin: px;
+    padding: px;
+    background: url('../bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.left{
+    color: azure;
+    /* border: 2px solid red; */
+    display: inline-block;
+    position:absolute;
+    left: 34px;
+    top: 20px;
+}
+.left img{
+    width: 135px;
+    align-items: center;
+}
+.left div{
+    text-align: center;
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+   text-decoration :underline;
+   color: grey;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    /* border: 2px solid red */
+}
+.right{
+    display: inline-block;
+    /* border : 2px solid red; */
+    position :absolute;
+    right: 34px;
+    top: 20px;
+}
